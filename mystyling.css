@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+#content > .background {
+    position: fixed;
+    filter: blur(4px);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#logo {
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+}
+
+h3, h4 {
+    text-align: center;
+    position: relative;
+}
+
+#SFA {
+    margin-top: 5%;
+    background-color: #000000;
+    position: relative;
+    opacity: 0.5;
+    color: #FFFFFF;
+    padding: 40px 10px;
+}
+
+#button {
+    text-align: center;
+    padding: 0;
+}
+
+a {
+    position: fixed;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 15px 15px;
+    text-decoration: none;
+    top: 80%;
+}
+
+a:hover {
+    background-color: blanchedalmond;
+    color: black;
+}
